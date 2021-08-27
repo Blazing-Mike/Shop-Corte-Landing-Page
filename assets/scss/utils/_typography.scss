@@ -1,22 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 // all needed fonts are imported here as font-faces
-// example
+$primary-font:'Open Sans', sans-serif;
+$naira-font: 'Roboto', sans-serif;
+.Navbar__links{
+    color: black;
+    font-weight: 600;
+}
+.para{
+    color: $secondary-color;
+}
+.status {
+    font-weight: 400;
+    font-size: 1.2rem;
+    opacity: 0.2;
+}
+.back-to-cart{
+    font-size: 1rem;
+}
+.naira{
+    font-family: $naira-font;
+    font-weight: 300;
+}
+.med-heading{
+    font-size: 1.7rem;
+    width: 18rem;
+    padding-bottom: 20px;
+}
+.small-heading{
+    font-size: 1.3rem;
+}
+.builders{
+    color: black;
+}
+.light-text{
+    opacity: 0.6;
+}
+.form-label{
+    display: block;
+    font-size: 1.2rem ;
+    color: $secondary-color;
+    opacity: 0.8;
+    padding: 5px 0;
+}
+.product-price{
+    font-size: 1.6rem;
+}
+.product__label .para{
+    padding: 6px 0;
+    font-size: 1.2rem;
+}
+.product__label-specs .para{
+padding: 1px 3px;
+}
+@media (max-width:950px) {
 
-// @font-face {
-//     font-family: 'OpenSans-Regular';
-//     font-style: normal;
-//     font-weight: normal;
-//     src: local("OpenSans-Regular"), url("../fonts/OpenSans-Regular.ttf") format("ttf");
-// }
 
-// @font-face {
-//     font-family: 'OpenSans-Bold';
-//     font-style: normal;
-//     font-weight: normal;
-//     src: local("OpenSans-Bold"), url("../fonts/OpenSans-Bold.ttf") format("ttf");
-// }
-
-
-// //
-
-// $primary-font: "OpenSans-Regular", Arial, "Helvetica Neue", Arial, sans-serif;
-// $bold-font: "OpenSans-Bold", Arial, " Helvetica Neue ", Arial, sans-serif;
+.status{
+    font-size: 0.8rem;
+}
+.title{
+    font-size: 1rem;
+}
+.product-price{
+    font-size: 1.3rem;
+}
+}

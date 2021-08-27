@@ -1,2 +1,49 @@
 @import "../utils/settings";
 //styles that belongs to header
+i {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+  }
+  .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+  }
+  .line{
+      width: 17px;
+      height: 2px;
+      background: black;
+      margin-left: -8px;
+    
+  }
+header{
+    padding: 20px 20px;
+    margin: $medium-spacing 0;
+    gap: 1.5rem;
+}
+.cart-container{
+    gap: 13px;
+}
+.user-header{
+  background: $secondary-color;
+  color: white;
+  padding: 10px 10px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+ 
+}
+.user-header .para{
+  color: white;
+}
+.user-header .flex{
+  gap: 12px;
+}
+.user-header .dropdown-icon{
+  border-top: 8px solid white;
+}
+
+@media (max-width:950px) {
+ 
+}

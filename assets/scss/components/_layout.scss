@@ -1,0 +1,40 @@
+@import "../utils/settings";
+
+.progress-bar{
+    transform: rotate();
+    position: absolute;
+    left: 20px;
+    
+}
+
+.row{
+    margin: 0 4%;
+    flex-wrap: wrap;
+}
+
+.form-section{
+    width: 45rem;
+    margin-left: 2rem;
+}
+.col{
+    width: 50%;
+}
+.product-section{
+width: 30rem;
+}
+
+@media (max-width:1155px) {
+ .cart-section{
+     flex-wrap: wrap;
+     display: flex;
+ }
+
+ .product-section{
+     margin-top: 2rem;
+ }
+}
+
+@media (max-width:1155px) {
+   
+   
+}

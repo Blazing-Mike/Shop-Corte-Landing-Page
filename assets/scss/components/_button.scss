@@ -1,2 +1,56 @@
 @import "../utils/settings";
 //styles that belongs to buttons
+.dot{
+    width: 1rem;
+    height: 1rem;
+    background: $secondary-color;
+    border-radius: 50%;
+}
+.Billing-option{
+    width: 1.6rem;
+    background: $secondary-color;
+}
+.dropdown-icon{
+    width: 0;
+	height: 0;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-top: 8px solid #555;
+}
+.divider{
+    width: 1px;
+    height: 20px;
+    transform: rotate(180deg);
+    background: $secondary-color;
+}
+
+.bar{
+    width: 18px;
+    height: 2px;
+    background: black;
+    margin: 5px 0;
+}
+.one{
+    transform: rotate(130deg);
+    margin-bottom: -3px;
+}
+.two{
+    transform: rotate(230deg);
+    margin-top: -3px;
+
+}
+.flag{
+    transform: rotate(90deg);
+}
+.flag-bar{
+    width: 20px;
+    height: 10px;
+    gap: 0px;
+   
+}
+.green{
+    background: green;
+}
+.white{
+    background: white;
+}
